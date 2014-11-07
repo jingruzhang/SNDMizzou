@@ -1,0 +1,72 @@
+/* 
+stylesheet: SND bootcamp test;
+Author: Suzie Zhang
+Version: 0.0.1
+
+Colors: 
+	Base Black: ;
+
+
+Index
+	-- Global
+	-- Navbar
+
+*/
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/*************
+	Navbar
+*************/
+
+.navbar-container{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: orange;
+	border-bottom: 1px solid #e5e5e5;
+	width: 100%;
+}
+
+.left-header-nav{
+	float: left;
+	width: 70%;
+}
+
+.left-header-nav li{
+	display: inline;
+	margin: 20px;
+}
+
+.left-header-nav li:last-child, 
+.right-header-nav li:last-child{
+	margin-right:0;
+}
+
+.left-header-nav li:first-child{
+	margin-right:0;
+}
+
+
+.right-header-nav{
+	float: left;
+	text-align: right;
+	width: 30%;
+}
+
+.right-header-nav li{
+	display:inline;
+	margin:20px;
+}
